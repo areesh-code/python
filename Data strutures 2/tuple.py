@@ -1,0 +1,7 @@
+s=(5,6,2,1,8,9)
+print(s)
+print(len(s))
+print(type(s))
+print(s[2])
+print(s[-2])
+print(s[2:5])
