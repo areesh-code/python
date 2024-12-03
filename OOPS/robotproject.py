@@ -9,7 +9,7 @@ class Robot:
         print(f"I am {self.age} years old.")
         print(f"My hobby is {self.hobby}.\n")
     
-    tom = robot("Tom", 13, "Cricket") 
+tom = Robot("Tom", 13, "Cricket") 
 jerry = Robot("Jerry", 10, "Basketball")
 
 tom.introduce()
