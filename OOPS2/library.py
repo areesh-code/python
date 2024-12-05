@@ -14,6 +14,7 @@ class Library:
         if book not in self.dic.keys():
             self.dic.update({book:user})
             print("You can now finally take this book")
+            self.list.remove(book)
         else:
             print("It is already sadly been taken")
 obj= Library("Areesh Library", ["Harry poter", "Diary of the Wimpy Kid", "Wonder", "BFG"])
@@ -23,12 +24,13 @@ while True:
     if x==1:
         obj.display()
     elif x==2:
-        name=input("Enter the name of the book")
+        name=input("Enter the name of the book")    
         obj.add_book(name)
     elif x==3:
-        name = input("Enter the name of the user")
-        bookname = input("Enter the name of the book")
+        name = input("Enter the name of the user  ")
+        bookname = input("Enter the name of the book ")
         obj.lenbook(bookname,name)
+        
     
     
 
