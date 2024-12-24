@@ -1,0 +1,9 @@
+print ("***************************************************************************")
+print ("*                   Murays Bay Intermediate School                        *")
+print ("***************************************************************************")
+import tkinter as tk
+from tkinter import messagebox
+import random
+boys_names = ["Jack", "Cade", "Mathew", "Freddie", "Julian", "Jackson", "Cooper", "Yibo", "John", "Luke", "Eli"]
+girls_names = ["Olivia", "Emma", "Ava", "Sophia", "Isabella", "Mia", "Amelia", "Harper", "Ella", "Grace"]
+

@@ -1,0 +1,7 @@
+import pygame
+
+
+pygame.mixer.init()
+
+bounce_sound = pygame.mixer.Sound("bounce.wav") 
+score_sound = pygame.mixer.Sound("score.wav")
