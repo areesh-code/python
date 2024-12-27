@@ -15,7 +15,6 @@ def generate_password(length=12):
     if length < 4:
         raise ValueError("Password length must be at least 4 to include all character types.")
 
-    
     lowercase = random.choice(string.ascii_lowercase)
     uppercase = random.choice(string.ascii_uppercase)
     digit = random.choice(string.digits)
