@@ -4,7 +4,7 @@ school_name = "Murrays Bay Intermediate"
 
 male_students = [
     {"name": "Jack", "grade": 8, "age": 13, "classroom": random.randint(1, 45), "gender": "Male"},
-    {"name": "Cade", "grade": 8, "age": 13, "classroom": random.randint(1, 45), "gender": "Male"},
+    {"name": "Cade", "grade": 8, "age": 12, "classroom": random.randint(1, 45), "gender": "Male"},
     {"name": "Mathew", "grade": 8, "age": 13, "classroom": random.randint(1, 45), "gender": "Male"},
     {"name": "Freddie", "grade": 8, "age": 13, "classroom": random.randint(1, 45), "gender": "Male"},
     {"name": "Julian", "grade": 8, "age": 13, "classroom": random.randint(1, 45), "gender": "Male"},
@@ -62,8 +62,8 @@ def male_student_menu():
         else:
             print("Invalid choice. Please try again.")
 
-male_student_menu()
 
+male_student_menu()
 
 import random
 
